@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title> Wildlife of California!</title>
+        <link href = "styles/main.css" rel = "stylesheet">
+    </head>
+    
+    <body>
+        <div id="navbar">
+            <nav>
+                <button class = "dropbtn" type = "button" onclick = "window.location.href = 'index.html'"> Home </button>    
+                <div class = "dropdown">
+                    <button class = "dropbtn" type = "button"> National Parks
+                          <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div id = "myDropdown" class = "dropdown-content" >
+                        <a href = "yosemite.html"> Yosemite National Park</a>
+                        <a href = "joshuatree.html"> Joshua Tree National Park</a>
+                        <a href = "lospadres.html"> Los Padres National Forest</a>
+                    </div>
+                </div>
+                
+                <div class = "dropdown">
+                    <button class = "dropbtn" type = "button"> Fauna</button>
+                    <div class = "dropdown-content" id = "fauna">
+                        <a href = "https://en.wikipedia.org/wiki/List_of_mammals_of_California"> Mammals</a>
+                        <a href = "https://en.wikipedia.org/wiki/List_of_birds_of_California"> Birds</a>
+                        <a href = "https://en.wikipedia.org/wiki/List_of_reptiles_of_California"> Reptiles</a>
+                        <a href = "http://calfish.ucdavis.edu/species/"> Fish</a>
+                        <a href = "https://www.insectidentification.org/insects-by-state.asp?thisState=California"> Insects</a>
+                    </div>
+                </div>
+                
+                <button class = "dropbtn" type = "button" onclick="window.location.href = 'prices.html'"> Prices</button>
+                <button class = "dropbtn" type = "button" onclick="window.location.href = 'contact.html'"> Contact</button>
+                <img class = "logo" src = "images/explorecalifornia.png" onclick = "window.location.href = 'index.html'">
+            </nav>
+        </div>
+        
+        
+        <div id = "body">
+            <h> Jeep Safari</h> <hr>
+            <p>Schedule: Mondays - Saturday</p> <br>
+            <p>Times: 8 AM to Sunset</p>
+            
+            <h2>We Offer Reservations!</h2>
+            <button id ="reserve" type = "button" onclick="window.location.href = 'prices.html'"> Reserve!</button>
+        </div>
+        
+        <footer>
+            <hr>
+            <div>Explore California has the right to refuse any person who they deem detremental to the Jeep Safari experience. While using this site, you agree to have read and accepted our terms of use, cookie and privacy policy. Copyright 1999-2018 by Refsnes Data. All Rights Reserved.
+
+                <div id = "bottomnav">
+                    <ul id = "botnavcontent">
+                        <li> <a href = "#"> Help</a> </li>
+                        <li> <a href = "termsofservice.html"> Terms of Service</a> </li>
+                        <li> <a href = "contact.html"> Contact</a> </li>
+                    </ul>
+                </div>
+            </div> 
+            
+        </footer>
+        
+        <script>
+            
+            /* When the user clicks on the button, 
+            toggle between hiding and showing the dropdown content */
+            /*
+            function myFunction() {
+                document.getElementById("myDropdown").classList.toggle("show");
+            }
+
+            // Close the dropdown if the user clicks outside of it
+            window.onclick = function(e) {
+              if (!e.target.matches('.dropbtn')) {
+                var myDropdown = document.getElementById("myDropdown");
+                  if (myDropdown.classList.contains('show')) {
+                    myDropdown.classList.remove('show');
+                  }
+              }
+            }
+            */
+            
+        </script>
+        
+    </body>
+    
+</html>

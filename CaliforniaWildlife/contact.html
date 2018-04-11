@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Contact ExploreCalifornia!</title>
+        <link href = "styles/main.css" rel = "stylesheet">
+    </head>
+    
+    <body>
+        <div id="navbar">
+            <nav>
+                <button class = "dropbtn" type = "button" onclick = "window.location.href = 'index.html'"> Home </button>    
+                <div class = "dropdown">
+                    <button class = "dropbtn" type = "button"> National Parks
+                          <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div id = "myDropdown" class = "dropdown-content" >
+                        <a href = "yosemite.html"> Yosemite National Park</a>
+                        <a href = "joshuatree.html"> Joshua Tree National Park</a>
+                        <a href = "lospadres.html"> Los Padres National Forest</a>
+                    </div>
+                </div>
+                
+                <div class = "dropdown">
+                    <button class = "dropbtn" type = "button"> Fauna</button>
+                    <div class = "dropdown-content" id = "fauna">
+                        <a href = "https://en.wikipedia.org/wiki/List_of_mammals_of_California"> Mammals</a>
+                        <a href = "https://en.wikipedia.org/wiki/List_of_birds_of_California"> Birds</a>
+                        <a href = "https://en.wikipedia.org/wiki/List_of_reptiles_of_California"> Reptiles</a>
+                        <a href = "http://calfish.ucdavis.edu/species/"> Fish</a>
+                        <a href = "https://www.insectidentification.org/insects-by-state.asp?thisState=California"> Insects</a>
+                    </div>
+                </div>
+                
+                <button class = "dropbtn" type = "button" onclick="window.location.href = 'prices.html'"> Prices</button>
+                <button class = "dropbtn" type = "button" onclick="window.location.href = 'contact.html'"> Contact</button>
+                <img class = "logo" src = "images/explorecalifornia.png" onclick = "window.location.href = 'index.html'">
+            </nav>
+        </div>
+        
+        
+        <div id = "contact">
+            
+            <div id = "contactForm">
+                
+                <div id = "contactFormLeft" >
+                    
+                    <h id = "contactTitle">Contact</h>
+                    <p class = "contactParagraph"> We are here to answer any questions you may have about Explore California. Reach out to us and we'll respond as soon as we can. <br><br>
+                    Even if there is something you have always wanted to experience and can't find it on Explore California, let us know and we promise we'll do our best to find it for you and send you there.</p>
+                    
+                    <form id = "contactInput">
+                        Name <font color="red">*</font> : 
+                        <input type = "text" name = "name">
+                        Email <font color="red">*</font> :
+                        <input type = "email" name = "email">
+                        <div id = "contactMessage">
+                            Message <font color="red">*</font> :
+                            <textarea name = "message"></textarea>
+                        </div>
+                        <input type="submit" value = "Submit" id = "submitMessage" onclick = "checkRequired()">
+                    </form>
+                </div>
+                    
+                <div id = "contactFormRight" >
+                    <h class = "rightContactHeader">Email</h>
+                    <div class = "rightContactP">info@explorecalifornia.com</div>
+                    
+                    <h class = "rightContactHeader">Phone</h>
+                    <div class = "rightContactP">(424) 865-1344</div>
+                    
+                    <h class = "rightContactHeader">Address</h>
+                    <div class = "rightContactP">74485 National Park Drive Twentynine Palms, CA 92277-3597</div>
+                    
+                </div>
+            </div>
+            
+        </div>
+        
+        <footer>
+            <hr>
+            <div>Explore California has the right to refuse any person who they deem detremental to the Jeep Safari experience. While using this site, you agree to have read and accepted our terms of use, cookie and privacy policy. Copyright 1999-2018 by Refsnes Data. All Rights Reserved.
+
+                <div id = "bottomnav">
+                    <ul id = "botnavcontent">
+                        <li> <a href = "#"> Help</a> </li>
+                        <li> <a href = "termsofservice.html"> Terms of Service</a> </li>
+                        <li> <a href = "contact.html"> Contact</a> </li>
+                    </ul>
+                </div>
+            </div> 
+        </footer>
+        
+        
+        <script>
+            function checkRequired(){
+                var name = document.getElementsByName("name")[0].value;
+                var email = document.getElementsByName("email")[0].value;
+                var message = document.getElementsByName("message")[0].value;
+                
+                if(name === "" || email === "" || message === ""){
+                    alert("Please fill out the required fields");
+                }
+                
+                else{
+                    alert("Thank you for your submission! We'll get back to you ASAP!");
+                    name = "";
+                    email = "";
+                    message = "";
+                }
+                
+            }
+        </script>
+    </body>
+    
+</html>
