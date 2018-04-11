@@ -1,0 +1,12 @@
+form{
+	text-align: center;
+	margin: 0 auto;
+	width: 50%;
+}
+body{
+	background-color: #1f1f2e !important;
+}
+
+label{
+	color: white !important;
+}

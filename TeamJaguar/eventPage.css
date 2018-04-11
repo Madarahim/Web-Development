@@ -1,0 +1,101 @@
+form{
+	text-align: center;
+	margin: 0 auto;
+	width: 50%;
+}
+body{
+	background-color: white !important;
+}
+
+label{
+	color: white !important;
+}
+
+p, li{
+	font-size: 18px;
+}
+
+#eventName{
+	
+	font-size: 100px;
+	color: black;
+	text-shadow: 3px 5px white;
+}
+
+#eventSub{
+	font-size: 35px;
+	color: #f2f2f2;
+    text-shadow: 2px 2px 0px #383838 ; /* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+}
+
+.imageOnBorder{
+	padding: 10px 10px 10px 10px;
+	background-image: url("images/astro.jpg");
+	background-repeat: none;
+	/*background-color: #ff0000 !important;*/
+}
+
+#interiorInfo{
+	padding: 0px 50px 10px 50px;
+}
+	
+#my_file {
+    display: none;
+}
+
+.breadcrumb{
+	margin: 0px;
+	border-radius: 0px;
+	font-size: 20px;
+	background-color: black;
+}
+
+#addItemsToList{
+	margin-left:0px;
+	padding-left: 0px;
+	width: 300px;
+}
+
+input[type='submit']{
+	border-radius: 0px;
+	background-color: #46556d;
+}
+
+.listTitle{
+	background-color: #d8d8d8;
+	border-radius: 5px;
+}
+
+input[type='text']{
+	border: 1px solid black;
+}
+
+/*timer*/
+
+#clockdiv{
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+}
+
+#clockdiv > div{
+    padding: 10px;
+    border-radius: 3px;
+    /*background: #00BF96;*/
+    display: inline-block;
+}
+
+#clockdiv div > span{
+    padding: 15px;
+    border-radius: 3px;
+    /*background: #00816A;*/
+    display: inline-block;
+}
+
+.smalltext{
+    padding-top: 5px;
+    font-size: 16px;
+}

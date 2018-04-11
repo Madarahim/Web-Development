@@ -1,0 +1,32 @@
+1) Register
+2) Log in
+3) Quit
+1
+Please enter ID:
+giang
+Please enter password:
+1234
+1) Register
+2) Log in
+3) Quit
+2
+Please enter your ID:
+giang
+Please enter your password:
+1234
+1) Add capsule
+2) Display capsule
+3) Quit
+1
+Please enter capsule name
+capsule1
+Please enter capsule content
+image
+1) Add capsule
+2) Display capsule
+3) Quit
+2
+capsule 0 content is image
+1) Add capsule
+2) Display capsule
+3) Quit

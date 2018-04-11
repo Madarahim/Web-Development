@@ -1,0 +1,18 @@
+create table Users
+(
+fname varchar(50),
+lname varchar(50),
+username varchar(50) NOT NULL,
+password varchar(50),
+PRIMARY KEY (username)
+);
+
+create table TimeCapsule
+(
+cname varchar(50) NOT NULL,
+datecreated date NOT NULL,
+administrator varchar(50) NOT NULL,
+opendate date,
+FOREIGN KEY (administrator) REFERENCES Users(username),
+PRIMARY KEY (administrator, cname, datecreated)
+);
