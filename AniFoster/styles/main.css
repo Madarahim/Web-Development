@@ -1,0 +1,109 @@
+body{
+    
+}
+
+.navbar-fixed-top{
+    background-color: crimson;
+    padding: 5px;
+}
+
+.navbar-fixed-top strong{
+    color: white;
+}
+
+.navbar-fixed-top input{
+    border-radius: 2px;
+}
+
+#login{
+    background-color: indianred;
+    color: white;
+    padding: 5px;
+    margin-top: 8px;
+    font-family: chalkduster;
+}
+
+.jumbotron{
+    background-image: url("/Users/abdulrahim/Desktop/Website Stuff/AniFoster/images/girlpetBackground.jpg");
+    margin-bottom: 0px;
+}
+
+.jumbotron h{
+    color: yellowgreen;
+    text-shadow: 2px 2px black;
+    font-size: 80px;
+    font-family: chalkduster;
+}
+
+#websiteMotto{
+    text-align: center;
+    margin-top: 112px
+}
+
+#signUp{
+    color: yellowgreen;
+    text-shadow: 1px 1px black;
+    font-family: chalkduster;
+    float: right;
+    margin-left: 12px;
+    
+}
+
+#signUp input[name = "firstName"]{
+    border-radius: 4px;
+    height: 35px;
+    width: 150px;
+    font-size: 18px;
+}
+
+#signUp input[name = "lastName"]{
+    border-radius: 4px;
+    height: 35px;
+    width: 150px;
+    font-size: 18px;
+}
+
+#signUp input[name = "emailRegister"]{
+    border-radius: 4px;
+    height: 35px;
+    width: 360px;
+    font-size: 18px;
+}
+
+#signUp input[name = "passwordRegister"]{
+    border-radius: 4px;
+    height: 35px;
+    width: 360px;
+    font-size: 18px;
+}
+
+#signUp small{
+    color: white;
+}
+
+#signUpButton{
+    background-color: indianred;    
+    height: 60px;
+    width: 200px;
+    color: white;
+    font-size: 20px;
+    border-radius: 3px;
+    
+}
+
+.row{
+    padding: 2px;
+}
+#footer{
+    background-color: crimson;
+    margin: 0px;
+    padding: 5px;
+    height: 100px;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+}
+
+#footer p{
+    margin: 10px 100px;
+}
