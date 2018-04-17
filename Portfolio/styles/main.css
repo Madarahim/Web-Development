@@ -1,0 +1,404 @@
+body {
+   
+}
+
+navbar{
+    display: block;
+    margin 0px;   
+    text-align: center;
+    /*background-color: aquamarine;*/
+}
+
+#websiteTabs{
+    display: inline-block;
+}
+
+#websiteTabs ul li{
+    display:inline-block;
+    margin: 5px 2px;
+    list-style: none;
+    background-color: black;
+    padding: 19px;
+}
+
+#websiteTabs ul li:hover{
+    opacity: 0.7;
+}
+
+#websiteTabs ul li a{
+    color: white;
+    text-align: center;
+    font-family: monospace;
+    text-decoration: none;
+    font-size: 15px;
+    margin 5px 2px;
+}
+
+.socialMedia{
+    display: inline-block;
+}
+
+.socialMedia ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+#body{
+    display: block;
+}
+
+#body h{
+    color: white;
+    font-size: 110px;
+    font-family: chalkduster;
+    text-align: center;
+    display: block;
+}
+
+#body p{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-family: fantasy;
+    display: block;
+}
+
+#bio{
+    color: white;
+    font-family: monospace;
+    font-size: 17px;
+    margin: 12px 25%;
+}
+
+#bio h{
+    font-size: 40px;
+    text-align: right;
+    margin-bottom: 5px;
+}
+
+#bio p{
+    text-align: center;
+    
+}
+
+embed{
+    
+}
+
+/*Social Media Buttons*/
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;    
+    
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-github{
+    background: purple;
+    color:white;
+}
+
+/*Projects*/
+/*
+#projects{
+    color: white;
+    font-size: 20px;
+    font-family: monospace;
+    text-align: left;
+    margin: 5px;
+}
+
+#projects h{
+    display: block;
+}
+
+#projects div{
+}
+
+.softwareproject{
+    color:white;
+    font-family: monospace;
+    text-align: left;
+    font-size: 12px;
+    display: inline-block;
+    margin: 3px;
+}
+*/
+
+/*Bootstrap Addition*/
+.jumbotron{
+    background-image: url("/Users/abdulrahim/Desktop/Website Stuff/Portfolio/images/gurrensunmoon.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+#projectInfo{
+    color: white;
+    font-family: monospace;
+}
+
+#projectInfo h{
+    font-size: 25px;
+}
+
+#projectVideo{
+    color: white;
+    font-family: monospace;
+}
+
+#projectVideo h{
+    font-size: 25px;
+}
+
+#home {
+     
+    
+}
+
+#about img{
+    width: 40%;
+    margin: 15px;
+}
+
+#contact{
+background-image: url("/Users/abdulrahim/Desktop/Website Stuff/Portfolio/images/reversesunmoon.png");
+    background-size: cover;
+    background-repeat: no-repeat;    color: white;
+}
+
+#contact p{
+    padding: 10px;
+}
+
+#contact ul{
+    list-style: none;
+}
+
+input{
+    color:black;
+}
+
+textarea{
+    color:black;
+}
+
+/*Sultan: Lost and Found*/
+.sultan{
+    font-family: chalkduster;
+    font-size: 100px;
+    text-align: center;
+    color: white;
+    background-image: url("/Users/abdulrahim/Desktop/Website Stuff/Portfolio/images/gsdjungle.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+
+.sultan p{
+    font-family: fantasy;
+}
+
+#sultanContact{
+    background-image: url("/Users/abdulrahim/Desktop/Website Stuff/Portfolio/images/SultanFooter.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px;
+    color: white;
+}
+
+#sultanContact ul{
+    list-style: none;
+}
+
+.studentoons{
+    font-family: chalkduster;
+    font-size: 100px;
+    text-align: center;
+    color: white;
+    background-image: url("/Users/abdulrahim/Desktop/Website Stuff/Portfolio/images/studentoonsBackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+
+#studentoonsContact{
+    background-image: url("/Users/abdulrahim/Desktop/Website Stuff/Portfolio/images/studentoonsFooter.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px;
+    color: white;
+}
+
+#studentoonsContact ul{
+    list-style: none;
+}
+
+.blackjack{
+    font-family: chalkduster;
+    font-size: 95px;
+    text-align: center;
+    color: white;
+    text-shadow: 10px 10px black;
+    background-image: url("/Users/abdulrahim/Desktop/Website Stuff/Portfolio/images/blackjackBackground.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+
+.blackjack p{
+    text-shadow: 0px 0px;
+}
+
+#blackjackContact{
+    background-image: url("/Users/abdulrahim/Desktop/Website Stuff/Portfolio/images/blackjackFooter.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px;
+    color: white;
+    
+}
+
+#blackjackContact ul{
+    list-style: none;
+}
+
+.employee{
+    font-family: chalkduster;
+    font-size: 68px;
+    text-align: center;
+    color: white;
+    text-shadow: 5px 5px black;
+    background-image: url("/Users/abdulrahim/Desktop/Website Stuff/Portfolio/images/employeeBackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+
+#employeeContact{
+    background-image: url("/Users/abdulrahim/Desktop/Website Stuff/Portfolio/images/employeeFooter2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+#employeeContact ul{
+    list-style: none;
+}
+
+.safari{
+    font-family: chalkduster;
+    font-size: 64px;
+    text-align: center;
+    color: white;
+    text-shadow: 5px 5px black;
+    background-image: url("/Users/abdulrahim/Desktop/Website Stuff/Portfolio/images/safariBackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+
+#safariContact{
+    background-image: url("/Users/abdulrahim/Desktop/Website Stuff/Portfolio/images/safariFooter.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px;
+    color: white;
+}
+
+#safariContact ul{
+    list-style: none;
+}
+
+.timecapsule{
+    font-family: chalkduster;
+    font-size: 64px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px black;
+    background-image: url("/Users/abdulrahim/Desktop/Website Stuff/Portfolio/images/timecapsuleBackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+
+#timecapsuleContact{
+    background-image: url("/Users/abdulrahim/Desktop/Website Stuff/Portfolio/images/timecapsuleFooter.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+#timecapsuleContact ul{
+    list-style: none;
+}
+
+.portfolio{
+    font-family: chalkduster;
+    font-size: 72px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+#portfolioContact{
+    background-image: url("/Users/abdulrahim/Desktop/Website Stuff/Portfolio/images/reversesunmoon.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+#portfolioContact ul{
+    list-style: none;
+}
+
+.anifoster{
+    background-image: url("/Users/abdulrahim/Desktop/Website Stuff/Portfolio/images/anifosterBackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: chalkduster;
+    font-size: 65px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+#anifosterContact{
+    background-image: url("/Users/abdulrahim/Desktop/Website Stuff/Portfolio/images/anifosterFooter.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+#anifosterContact ul{
+    list-style: none;
+}
